@@ -1,0 +1,335 @@
+
+ 
+body
+
+{font-family:"lato"}
+.photo
+{
+background-color: #1b1b6c;
+height: 50px;
+width: 90%;
+
+
+
+}
+.hello
+{
+	margin-top: -25px;
+background-color: #13124f;
+width: 90%;
+height: 210px;
+color: white;
+
+}
+.learn
+{
+	background-color: #f61067;
+	text-decoration: none;
+	color:white;
+	margin-left: 30px;
+    padding-right: 20px;
+
+}
+.learn:hover
+{
+    background-color: #2AD392
+}
+
+.msg
+{
+	position: absolute;
+	left: 65%;
+	top: 40%;
+	width: 15%;
+	padding-left: 7.3%;
+	height: 5%;
+	background-color: #f61067;
+	color: white;
+}
+.badge
+{
+	
+	background-color: #1b1b6c;
+	
+}
+.heading
+{
+	position: absolute;
+	widows: 10%
+	height:5%;
+}
+.lorem
+{
+	position: absolute;
+	top: 48%;
+	left: 2%;
+	width: 56%;
+
+}
+.video
+{
+	position: absolute;
+	top: 62%;
+	left: 2%;
+	height: 65%;
+	width: 56%;
+}
+.can
+{
+	position: absolute;
+	top: 49%;
+	left: 65%;
+	padding-left: 1%;
+	background-color: #9090a5;
+	color: white;
+	font-size: 20px;
+	width: 21.3%;
+	height: 5%;
+
+}
+.can2
+{
+	background-color: #13124F;
+	position: absolute;
+	top: 53.5%;
+	left: 65%;
+	height: 24%;
+	color:white;
+	width: 21.3%;
+	padding-left: 1%;
+}
+
+.form-control
+{
+	position: absolute;
+	background-color: #352ba5;
+	color: gray;
+    top: 63%;
+    left: 65.8%;
+    height: 25px;
+    width: 19.3%;
+    font-size: 18px;
+}
+.send
+{
+	position: absolute;
+	background-color: #f61067;
+	text-decoration: none;
+	color:white;
+	
+    top: 70%;
+    left: 66%;
+    width: 19.5%;
+    height: 30px;
+    font-size: 20px;
+
+}
+.send:hover
+{
+	background-color: #2AD392
+}
+.idont
+{
+	position: absolute;
+	top: 77%;
+	left: 65%;
+	color: white;
+	background-color: #352ba5;
+	width: 21.3%;
+	height: 4%;
+	padding-left: 1%;
+	font-size: 14px;
+}
+.vote
+{
+	position: absolute;
+	top: 85%;
+	left: 65%;
+	width: 21.3%;
+	height: 20%;
+	background-color: #f8f8ff;
+	font-size: 16px;
+	padding-left: 1%
+
+	
+}
+.pro1
+{
+	position: absolute;
+	top: 48%;
+	left: 5%;
+	width: 60%;
+	height: 8.7%;
+	background-color: #f61067;
+}
+.pro2
+{
+	position: absolute;
+	top: 48%;
+	left: 65%;
+	width: 30%;
+	height: 8.7%;
+	background-color: #2AD392;
+}
+.cool
+{
+	position: absolute;
+	text-decoration: none;
+	width: 35%;
+	height: 20.3%;
+	background-color: #f61067;
+	top: 64%;
+	color: white;
+	left: 12%;
+	font-size: 20px;
+}
+.lame
+{
+	position: absolute;
+	width: 35%;
+	height: 20.3%;
+	color: green;
+	top: 64%;
+	left: 53%;
+	font-size: 20px;
+	text-decoration: none;
+	background-color:#2AD392; 
+
+}
+.whoa
+{
+	position: absolute;
+	height: 5%;
+	width: 55.8%;
+	background-color: #9090a5;
+	left: 2%;
+	top: 133%;
+	color: white;
+	font-size: 20px;
+
+}
+.all
+{
+	position: absolute;
+	
+	top: 140%;
+	width: 90%;
+	height: 7%;
+	background-color: #13124f;
+	color: white;
+}
+@media only screen and (max-width: 600px){
+	.photo, .hello, .all,   {
+		margin: 0% auto;
+		width: 100%;
+	}
+	.msg
+	{
+		display: none;
+	}
+	.can
+	{
+	display: none;	
+	}
+	.can2
+	{
+		display: none;
+	}
+    .idont
+    {
+		display: none;
+	}
+	.cool
+	{
+		display: none;
+	}
+	.lame
+	{
+		display: none;
+	}
+	.pro1
+	{
+		display: none;
+	}
+	.pro2
+	{
+		display: none;
+	}
+	.vote
+	{
+		display: none;
+	}
+	.form-control
+	{
+		display: none;
+	}
+	.send
+	{
+		display: none;
+	}
+	.whoa
+	{
+		display: none;
+	}
+	.all
+	{
+		display: none;
+	}
+
+
+
+
+}
+@media only screen and (max-width: 990px)
+{
+
+	.photo, .hello, .all,   {
+		margin: 0% auto;
+		width: 100%;
+	}
+	.msg
+	{
+		display: none;
+	}
+	.can
+	{
+	display: none;	
+	}
+	.can2
+	{
+		display: none;
+	}
+    .idont
+    {
+		display: none;
+	}
+	.cool
+	{
+		display: none;
+	}
+	.lame
+	{
+		display: none;
+	}
+	.pro1
+	{
+		display: none;
+	}
+	.pro2
+	{
+		display: none;
+	}
+	.vote
+	{
+		display: none;
+	}
+	.form-control
+	{
+		display: none;
+	}
+	.send
+	{
+		display: none;
+	}
+	
+	}
